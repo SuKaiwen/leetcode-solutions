@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+
+import data from './data';
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
         <h1>LEETCODE SOLUTIONS</h1>
         <p>By Kevin Su</p>
         <h2>Array/Hash Maps</h2>
+        {data.arrHashMap.map(question => {return (
+          <p>{question.name} {question.difficulty}</p>
+        )})}
         <h2>Two Pointers</h2>
         <h2>Sliding Window</h2>
         <h2>Stacks</h2>
