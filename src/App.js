@@ -13,6 +13,9 @@ function App() {
           <p>{question.name} {question.difficulty}</p>
         )})}
         <h2>Two Pointers</h2>
+        {data.twoPointers.map(question => {return (
+          <p>{question.name} {question.difficulty}</p>
+        )})}
         <h2>Sliding Window</h2>
         <h2>Stacks</h2>
         <h2>Binary Search</h2>
